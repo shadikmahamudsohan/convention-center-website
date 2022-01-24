@@ -26,7 +26,7 @@
 <body>
     <header>
         <!-- navber start -->
-        <nav class="navbar navbar-expand-lg bg-light navbar-light ">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
             <div class="container">
                 <a class="navbar-brand fw-bold" href="#">SunValley Convention Center</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -40,13 +40,13 @@
                             <a class="nav-link me-2" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-2" href="#Shoes">Shoes</a>
+                            <a class="nav-link me-2" href="#about-us">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-2" href="#Backpack">Backpack</a>
+                            <a class="nav-link me-2" href="#resister">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-2" href="#subscride">Subscipbe</a>
+                            <a class="nav-link me-2" href="#subscride">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -55,7 +55,7 @@
         <!-- navber end -->
 
         <!-- image slider start -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -109,6 +109,39 @@
     </header>
 
     <main>
+        <section id="about-us" class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/wedding.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="fw-bold">Every moment is Precious</h1>
+                    <!-- toast start -->
+                    <div class="position-absolute end-0">
+                        <div class="toast show bg-white" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="d-flex justify-content-evenly border-start border-5 border-success">
+                                <div class="py-2">
+                                    <span class="text-success fs-5"><i class="fas fa-gift"></i></span>
+                                    <span class="ms-2">25% off on next booking</span>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn-close mt-1 ms-5" data-bs-dismiss="toast"
+                                        aria-label="Close"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- toast end -->
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <a href="#" class="btn btn-success"><span>Explore our album</span> <i
+                            class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+
         <!-- cards start -->
         <section class="my-5 container">
             <h1 class="my-5 text-center">Our package</h1>
@@ -295,7 +328,7 @@
         </section>
         <!-- questions section end -->
 
-        <!-- resister  section start -->
+        <!-- reach us  section start -->
         <section id="resister">
             <div class="container shadow-lg">
                 <div class="text-center pt-5 pb-2 pb-md-4">
@@ -365,13 +398,13 @@
                 </div>
             </div>
         </section>
-        <!-- resister  section end -->
-
+        <!-- reach us  section end -->
 
     </main>
 
     <footer class="bg-dark text-light mt-5 py-5">
-        <section class="container d-flex flex-md-row flex-column align-items-center justify-content-between">
+        <section id="subscride"
+            class="container d-flex flex-md-row flex-column align-items-center justify-content-between">
             <p class="disabled"><small>&copy;2022 SunValley. All rights reserved</small></p>
             <div>
                 <a href="https://www.apple.com/iphone-13-pro/" target="-blanck"><img class="d-block mb-3"
